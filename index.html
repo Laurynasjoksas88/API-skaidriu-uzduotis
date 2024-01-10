@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <style>
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="searchInput">Įveskite žodį pagal kurį paieškos sistema atras nuotraukų(Anglų kalba):</label>
+        <input type="text" id="searchInput">
+        <button onclick="searchImages()">Ieškoti</button>
+    </div>
+    
+    <div id="gallery"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
