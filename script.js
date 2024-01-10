@@ -27,7 +27,7 @@ function searchImages() {
                 displayMessage('Įvyko klaida gaunant nuotraukas.');
             });
     } else {
-        displayMessage('Įveskite žodį ar fragmentą.');
+        displayMessage('Įveskite žodį.');
     }
 }
 
